@@ -1,0 +1,165 @@
+body{
+    background-color: brown;
+}
+.text{
+    margin: 15px auto;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 500;
+    color: yellow;
+}
+.map{
+    height: 630px;
+    margin: 0 50px;
+}
+
+
+[class*='copyrights-pane']{
+    display: none;
+}
+
+
+.sitoPiano__modal,
+.chickoRicko__modal{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(81, 22, 22, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+
+.sitoPiano__modal.active,
+.chickoRicko__modal.active{
+    display: block;
+}
+
+
+.sitoPiano__modal__content,
+.chickoRico__swiper-container{
+    background-color: rgb(255, 218, 9);
+    max-width: 700px;
+    min-height: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: brown;
+    border: 3px solid brown;
+    flex-direction: column;
+}
+
+.sitoPiano__modal__content img,
+.chickoRico__swiper-container img{
+    max-width: 380px;
+    width: 100%;
+    max-height: 250px
+}
+
+.modal__cross img,
+.chickoRico__swiper-container .modal__cross img{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    height: 20px;
+    width: 20px;
+    color: black;
+    z-index: 4;
+    padding: 8px;
+    user-select: none;
+}
+
+.sitoPiano__modal__title,
+.chickoRico__modal__title{
+    font-size: 22px;
+    text-align: center;
+}
+
+.sitoPiano__modal__text,
+.chickoRico__modal__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 19px;
+}
+
+a{
+    padding-top: 10px;
+    color: brown !important;
+}
+
+/* .chickoRico__swiper-container {
+    background-color: rgb(255, 218, 9);
+    max-width: 700px;
+    min-height: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: brown;
+    border: 3px solid brown;
+    flex-direction: column;
+} */
+
+/* .chickoRico__swiper-container img{
+    max-width: 380px;
+    width: 100%;
+    max-height: 250px
+} */
+
+/* .chickoRico__swiper-container .modal__cross img{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    height: 20px;
+    width: 20px;
+    color: black;
+    z-index: 4;
+    padding: 8px;
+}  */
+
+.swiper-container {
+    max-width: 700px;
+    min-height: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+}
+
+
+/* .contentt{
+    background-color: rgb(255, 218, 9);
+    max-width: 700px;
+    height: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+    bottom: -150px !important;
+} */
+
+.swiper-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+bottom: -150px !important;
+}
